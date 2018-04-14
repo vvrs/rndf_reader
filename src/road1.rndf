@@ -1,0 +1,449 @@
+RNDF_name	spiral.rndf
+num_segments	15
+num_zones	0
+format_version	1.0
+creation_date	30/10/2017
+
+segment 1
+num_lanes	2
+segment_name	S1
+lane 1.1
+num_waypoints	4
+lane_width	4
+stop 1.1.2
+stop 1.1.4
+exit 1.1.2	7.1.9
+exit 1.1.2	7.2.10
+exit 1.1.4	13.1.1
+1.1.1	-400 4
+1.1.2	-264 4
+1.1.3	-236 4
+1.1.4	-18 4
+end_lane
+
+lane 1.2
+num_waypoints	4
+lane_width	4
+stop 1.2.2
+stop 1.2.4
+exit 1.2.2	7.1.8
+exit 1.2.2	7.2.11
+exit 1.2.4	1.1.1
+1.2.1	-18 -4
+1.2.2	-236 -4
+1.2.3	-264 -4
+1.2.4	-400 -4
+end_lane
+end_segment
+
+segment 2
+num_lanes	2
+segment_name	S2
+lane 2.1
+num_waypoints	3
+lane_width	4
+stop 2.1.2
+exit 2.1.3	15.1.3	
+2.1.1	18 4
+2.1.2	349.81 4
+2.1.3	364.3 4
+end_lane
+
+lane 2.2
+num_waypoints	3
+lane_width	4
+stop 2.2.3
+exit 2.2.3	13.1.3
+2.2.1	364.56 -4
+2.2.2	349.17 -4
+2.2.3	18 -4
+end_lane
+end_segment
+
+segment 3
+num_lanes	2
+segment_name	S3
+lane 3.1
+num_waypoints	3
+lane_width	4
+exit 3.1.3	3.2.1
+3.1.1	393.05 4
+3.1.2	408.98 4
+3.1.3	499.85 4
+end_lane
+
+lane 3.2
+num_waypoints	3
+lane_width	4
+stop 3.2.2
+exit 3.2.2	11.1.2
+exit 3.2.3	15.1.8
+3.2.1	499.85 -4
+3.2.2	415.41 -4
+3.2.3	393.1 -4
+end_lane
+end_segment
+
+segment 4
+num_lanes	2
+segment_name	S4
+lane 4.1
+num_waypoints	4
+lane_width	4
+stop 4.1.2	
+stop 4.1.4
+exit 4.1.2	7.1.5
+exit 4.1.2	7.2.14
+exit 4.1.4	14.1.3
+4.1.1	-350.97 -247.16
+4.1.2	-259.78 -215.9
+4.1.3	-231.79 -206.3
+4.1.4	-36.66 -139.4
+end_lane
+
+lane 4.2
+num_waypoints	5
+lane_width	4
+stop 4.2.3
+stop 4.2.5
+exit 4.2.3	7.1.4
+exit 4.2.3	7.2.15
+exit 4.2.5	4.1.1
+4.2.1	-19.88 -139.99
+4.2.2	-34.04 -144.85
+4.2.3	-238.89 -215.08
+4.2.4	-268.21 -225.13
+4.2.5	-349.03 -252.84
+end_lane
+end_segment
+
+segment 5
+num_lanes	2
+segment_name	S5
+lane 5.1
+num_waypoints	6
+lane_width	4
+stop 5.1.5
+exit 5.1.5	2.2.2
+exit 5.1.6	15.1.2
+5.1.1	21.8 -127
+5.1.2	43.53 -127
+5.1.3	296.62 -127
+5.1.4	299.18 -125.56
+5.1.5	360.58 -24.25
+5.1.6	368.42 -11.31
+end_lane
+
+lane 5.2
+num_waypoints	6
+lane_width	4
+stop 5.2.5
+exit 5.2.5	12.1.2
+exit 5.2.6	14.1.8
+5.2.1	373.37 -14.74
+5.2.2	369.8 -20.62
+5.2.3	304.32 -128.67
+5.2.4	296.62 -133
+5.2.5	43.53 -133
+5.2.6	21.86 -133
+end_lane
+end_segment
+
+segment 6
+num_lanes	2
+segment_name	S6
+lane 6.1
+num_waypoints	3
+lane_width	4
+stop 6.1.3
+exit 6.1.3	6.2.1
+6.1.1	384.03 14.44
+6.1.2	392.16 27.85
+6.1.3	497.44 201.55
+end_lane
+
+lane 6.2
+num_waypoints	3
+lane_width	4
+stop 6.2.2
+exit 6.2.2	3.1.2
+exit 6.2.3	15.1.6
+6.2.1	502.57 198.45
+6.2.2	397.29 24.74
+6.2.3	389.12 11.26
+end_lane
+end_segment
+
+segment 7
+num_lanes	2
+segment_name	S7
+lane 7.1
+num_waypoints	16
+lane_width	4
+stop 7.1.2
+stop 7.1.6
+stop 7.1.16
+exit 7.1.2	4.2.4
+exit 7.1.3	4.1.3
+exit 7.1.6	1.2.3
+exit 7.1.7	1.1.3
+exit 7.1.12	10.1.5
+exit 7.1.13	10.2.5
+exit 7.1.16	7.2.1
+7.1.1	-252 -300
+7.1.2	-252 -236.71
+7.1.3	-252 -233.43
+7.1.4	-252 -205.71
+7.1.5	-252 -205
+7.1.6	-252 -16
+7.1.7	-252 -12
+7.1.8	-252 12
+7.1.9	-252 16
+7.1.10	-252 186
+7.1.11	-236 202
+7.1.12	-9.89 202
+7.1.13	-3.26 202
+7.1.14	17.75 202
+7.1.15	18.32 202
+7.1.16	150 202
+end_lane
+
+lane 7.2
+num_waypoints	16
+lane_width	4
+stop	7.2.2
+stop	7.2.8
+stop	7.2.12
+exit	7.2.2	10.2.5
+exit	7.2.3	10.1.5
+exit	7.2.8	1.1.3
+exit	7.2.9	1.2.3
+exit	7.2.12	4.1.3
+exit	7.2.13	4.2.4
+exit	7.2.16	7.1.1
+7.2.1	150 198
+7.2.2	18.32 198
+7.2.3	17.86 198
+7.2.4	-9.89 198
+7.2.5	-3.26 198
+7.2.6	-236 198
+7.2.7	-248 186
+7.2.8	-248 16
+7.2.9	-248 12
+7.2.10	-248 -12
+7.2.11	-248 -16
+7.2.12	-248 -194.72
+7.2.13	-248 -196.83
+7.2.14	-248 -224.32
+7.2.15	-248 -227.83
+7.2.16	-248 -300
+end_lane
+end_segment
+
+segment 8
+num_lanes	2
+segment_name	S8
+lane 8.1
+num_waypoints	3
+lane_width	4
+stop 8.1.2
+exit 8.1.2	4.2.2
+exit 8.1.3	14.1.1
+8.1.1	-4 -300
+8.1.2	-4 -166.3
+8.1.3	-4 -150.97
+end_lane
+
+lane 8.2
+num_waypoints	3
+lane_width	4
+exit 8.2.3	8.1.1
+8.2.1	4 -151.07
+8.2.2	4 -166.3
+8.2.3	4 -300
+end_lane
+end_segment
+
+segment 9
+num_lanes	2
+segment_name	S9
+lane 9.1
+num_waypoints	3
+lane_width	4
+stop 9.1.3
+exit 9.1.3	13.1.4
+9.1.1	-4 -109.03
+9.1.2	-4 -93.67
+9.1.3	-4 -18
+end_lane
+
+lane 9.2
+num_waypoints	3
+lane_width	4
+stop 9.2.2
+exit 9.2.2	5.1.2
+exit 9.2.3	14.1.5
+9.2.1	4 -18
+9.2.2	4 -87.47
+9.2.3	4 -108.79
+end_lane
+end_segment
+
+segment 10
+num_lanes	2
+segment_name	S10
+lane 10.1
+num_waypoints	8
+lane_width	4
+stop 10.1.4
+stop 10.1.8
+exit 10.1.4	7.2.4
+exit 10.1.4	7.1.14
+exit 10.1.8	10.2.1
+10.1.1	-4 18
+10.1.2	-4 166.21
+10.1.3	-3.07 172.53
+10.1.4	0 186.6
+10.1.5	0 213.49
+10.1.6	-3.07 227.47
+10.1.7	-4 233.96
+10.1.8	-4 249.75
+end_lane
+
+lane 10.2
+num_waypoints	8
+lane_width	4
+stop 10.2.4
+stop 10.2.8
+exit 10.2.4 7.2.5
+exit 10.2.4 7.1.15
+exit 10.2.8 13.1.2
+10.2.1	4 250
+10.2.2	4 233.81
+10.2.3	4.59 229.77
+10.2.4	8.38 210.94
+10.2.5	8.38 189.06
+10.2.6	4.59 170.23
+10.2.7	4 166.16
+10.2.8	4 18
+end_lane
+end_segment
+
+segment 11
+num_lanes	2
+segment_name	S11
+lane 11.1
+num_waypoints	3
+lane_width	4
+stop 11.1.3
+exit 11.1.3	11.2.1
+11.1.1	390.89 -9.52
+11.1.2	405.18 -26.22
+11.1.3	552.28 -198.05
+end_lane
+
+lane 11.2
+num_waypoints	3
+lane_width	4
+stop 11.2.2
+exit 11.2.2 5.2.2
+exit 11.2.3 15.1.10
+11.2.1	547.72 -201.95
+11.2.2	391.01 -18.88
+11.2.3	386.31 -13.4
+end_lane
+end_segment
+
+segment 12
+num_lanes	2
+segment_name	S12
+lane 12.1
+num_waypoints	3
+lane_width	4
+stop 12.1.3
+exit 12.1.3	12.2.1
+12.1.1	18.36 -141.67
+12.1.2	35.11 -155.91
+12.1.3	201.94 -297.71
+end_lane
+
+lane 12.2
+num_waypoints	4
+lane_width	4
+stop 12.2.2
+exit 12.2.3 8.2.2
+exit 12.2.4 14.1.10
+12.2.1	198.06 -302.29
+12.2.2	31.22 -160.48
+12.2.3	26.07 -156.1
+12.2.4	14.87 -146.58
+end_lane
+end_segment
+
+segment 13
+num_lanes	1
+segment_name	R1
+lane 13.1
+num_waypoints	4
+lane_width	4
+exit 13.1.1	10.1.1
+exit 13.1.2 2.1.1
+exit 13.1.3	9.2.1
+exit 13.1.4	1.2.1
+exit 13.1.4	13.1.1
+13.1.1	-8.1 8.1
+13.1.2	8.1 8.1
+13.1.3	8.1 -8.1
+13.1.4	-8.1 -8.1
+end_lane
+end_segment
+
+segment 14
+num_lanes	1
+segment_name	R2
+lane 14.1
+num_waypoints	10
+lane_width	4
+exit 14.1.2	4.2.1
+exit 14.1.3	9.1.2
+exit 14.1.6 5.1.1
+exit 14.1.7	12.1.1
+exit 14.1.9	8.2.1
+exit 14.1.10 14.1.1
+14.1.1	-8.55 -142.79
+14.1.2	-10.01 -141.68
+14.1.3	-12.78 -121.45
+14.1.4	-8.49 -117.18
+14.1.5	8.46 -117.16
+14.1.6	13.22 -122.15
+14.1.7	15.15 -132.63
+14.1.8	13.27 -137.78
+14.1.9	8.52 -142.8
+14.1.10	4.91 -144.58
+end_lane
+end_segment
+
+segment 15
+num_lanes	1
+segment_name	R3
+lane 15.1
+num_waypoints	10
+lane_width	4
+exit 15.1.1	2.2.1
+exit 15.1.4	6.1.1
+exit 15.1.5	3.1.1
+exit 15.1.7	11.1.1
+exit 15.1.9	5.2.1
+exit 15.1.10 15.1.1
+15.1.1	371.65 -7
+15.1.2	369.29 -3.13
+15.1.3	371.65 7
+15.1.4	377.17 9.87
+15.1.5	385.93 7
+15.1.6	388.29 3.13
+15.1.7	388.67 -1.54
+15.1.8	385.91 -7.02
+15.1.9	380.41 -9.87
+15.1.10	378.79 -10
+end_lane
+end_segment
