@@ -40,12 +40,7 @@ This directory contains the scripts to read an RNDF file and extract the adjacen
         |-- rndf2dicts.py
         `-- src
             |-- road1.rndf
-            |-- road2.rndf
-            |-- spiral30.rndf
-            |-- spiral_n.rndf
-            |-- spiral.rndf
-            |-- star.rndf
-            `-- trefoil.rndf
+            `-- road2.rndf
 ```
 
 > 'src/' directory contains the RNDF files to be parsed.
